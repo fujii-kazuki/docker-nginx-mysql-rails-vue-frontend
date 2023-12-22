@@ -1,0 +1,18 @@
+{
+  "name": "docker-nginx-mysql-rails-vue",
+	"dockerComposeFile": "../docker-compose.yml",
+	"service": "frontend",
+	"workspaceFolder": "/frontend",
+	"features": {
+    "ghcr.io/devcontainers/features/common-utils:2": {},
+		"ghcr.io/devcontainers/features/git:1": {}
+	},
+  "customizations": {
+		"vscode": {
+			"extensions": [
+				"eamodio.gitlens",
+				"vue.volar"
+			]
+		}
+	}
+}
