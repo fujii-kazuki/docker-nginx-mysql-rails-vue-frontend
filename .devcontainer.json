@@ -1,5 +1,5 @@
 {
-  "name": "docker-nginx-mysql-rails-vue",
+  "name": "docker-nginx-mysql-rails-vue-frontend",
 	"dockerComposeFile": "../docker-compose.yml",
 	"service": "frontend",
 	"workspaceFolder": "/frontend",
@@ -14,5 +14,6 @@
 				"vue.volar"
 			]
 		}
-	}
+	},
+	"shutdownAction": "none"
 }
